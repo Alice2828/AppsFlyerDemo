@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/graph_empty_host_activity"
+    app:startDestination="@id/emptyHostFragment">
+
+    <fragment
+        android:id="@+id/emptyHostFragment"
+        android:name="com.example.myapplicationAppsFlyerDemo.emptyHostActivity.EmptyHostGlobalFragment"
+        android:label="EmptyHostFragment" />
+
+</navigation>
