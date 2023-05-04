@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.myapplicationAppsFlyerDemo
 
 import org.junit.Test
 
