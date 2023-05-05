@@ -8,6 +8,7 @@ import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import com.example.myapplicationAppsFLyerDemo.R
+import com.example.myapplicationAppsFLyerDemo.databinding.FragmentDeepLinkBinding
 import com.example.myapplicationAppsFLyerDemo.databinding.FragmentEmptyBinding
 import com.example.myapplicationAppsFlyerDemo.handler.ARG_DEEP_LINK_DATA
 import com.example.myapplicationAppsFlyerDemo.handler.DeepLinkNavigator
@@ -17,9 +18,22 @@ import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 
 class EmptyHostGlobalFragment : Fragment() {
     private lateinit var binding: FragmentEmptyBinding
-
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View {
+        binding = FragmentEmptyBinding.inflate(inflater, container, false)
+        return binding.root
+    }
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        /**
+         * Скрываем рутовый лаяут для диалога
+         */
+        if (deepLinkData?.isDialog == true) {
+            view?.visibility = View.GONE
+        }
         handleDeepLinkData()
     }
 
