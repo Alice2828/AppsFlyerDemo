@@ -24,9 +24,9 @@ class App : MultiDexApplication() {
             androidContext(applicationContext)
             modules(getDiModules() as ArrayList<Module>)
         }
+        subscribeForDeepLink()
         AppsFlyerLib.getInstance().start(this, "3uLHgiJvdx27PrYg6RCjRh")
         AppsFlyerLib.getInstance().setDebugLog(true)
-        subscribeForDeepLink()
     }
 
     private fun subscribeForDeepLink() {
