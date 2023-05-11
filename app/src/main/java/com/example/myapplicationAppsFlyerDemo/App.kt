@@ -18,14 +18,14 @@ class App : MultiDexApplication() {
     override fun onCreate() {
         super.onCreate()
 
+        subscribeForDeepLink()
+        AppsFlyerLib.getInstance().setDebugLog(true)
         AppCompatDelegate.setCompatVectorFromResourcesEnabled(true)
         startKoin {
             androidLogger()
             androidContext(applicationContext)
             modules(getDiModules() as ArrayList<Module>)
         }
-        subscribeForDeepLink()
-        AppsFlyerLib.getInstance().setDebugLog(true)
         AppsFlyerLib.getInstance().start(this, "3uLHgiJvdx27PrYg6RCjRh")
     }
 
