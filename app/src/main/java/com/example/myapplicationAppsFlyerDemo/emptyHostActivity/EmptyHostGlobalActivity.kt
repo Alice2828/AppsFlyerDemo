@@ -3,8 +3,8 @@ package com.example.myapplicationAppsFlyerDemo.emptyHostActivity
 import android.app.Activity
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.myapplicationAppsFLyerDemo.R
-import com.example.myapplicationAppsFLyerDemo.databinding.ActivityEmptyBinding
+import com.example.myapplicationAppsFlyerDemo.R
+import com.example.myapplicationAppsFlyerDemo.databinding.ActivityEmptyBinding
 import com.example.myapplicationAppsFlyerDemo.handler.ARG_DEEP_LINK_DATA
 import com.example.myapplicationAppsFlyerDemo.handler.UIDeepLink
 

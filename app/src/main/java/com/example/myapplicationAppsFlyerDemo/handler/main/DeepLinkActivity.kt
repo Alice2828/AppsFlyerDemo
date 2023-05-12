@@ -4,8 +4,8 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.fragment.findNavController
-import com.example.myapplicationAppsFLyerDemo.R
-import com.example.myapplicationAppsFLyerDemo.databinding.ActivityDeppLinkBinding
+import com.example.myapplicationAppsFlyerDemo.R
+import com.example.myapplicationAppsFlyerDemo.databinding.ActivityDeppLinkBinding
 import com.example.myapplicationAppsFlyerDemo.DeepLinkFragment
 
 class DeepLinkActivity: AppCompatActivity() {

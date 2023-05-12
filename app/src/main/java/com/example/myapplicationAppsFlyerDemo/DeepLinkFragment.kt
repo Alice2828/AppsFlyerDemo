@@ -11,8 +11,8 @@ import android.view.ViewGroup
 import androidx.core.app.ActivityCompat
 import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
-import com.example.myapplicationAppsFLyerDemo.BuildConfig
-import com.example.myapplicationAppsFLyerDemo.databinding.FragmentDeepLinkBinding
+import com.example.myapplicationAppsFlyerDemo.BuildConfig
+import com.example.myapplicationAppsFlyerDemo.databinding.FragmentDeepLinkBinding
 import com.example.myapplicationAppsFlyerDemo.handler.DeepLinkHandler
 import com.example.myapplicationAppsFlyerDemo.handler.DeepLinkNavigator
 import com.example.myapplicationAppsFlyerDemo.handler.EMPTY

@@ -4,7 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.multidex.MultiDexApplication
 import com.appsflyer.AppsFlyerLib
-import com.example.myapplicationAppsFLyerDemo.BuildConfig
+import com.example.myapplicationAppsFlyerDemo.BuildConfig
 import com.example.myapplicationAppsFlyerDemo.di.getAppDIModule
 import com.example.myapplicationAppsFlyerDemo.handler.main.DeepLinkActivity
 import com.google.gson.Gson

@@ -2,7 +2,7 @@ package com.example.myapplicationAppsFlyerDemo
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.myapplicationAppsFLyerDemo.databinding.ActivityMainBinding
+import com.example.myapplicationAppsFlyerDemo.databinding.ActivityMainBinding
 
 class MainActivity: AppCompatActivity() {
 

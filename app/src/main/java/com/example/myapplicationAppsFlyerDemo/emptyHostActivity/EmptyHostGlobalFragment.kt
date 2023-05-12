@@ -12,10 +12,10 @@ import android.widget.FrameLayout
 import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
-import com.example.myapplicationAppsFLyerDemo.R
-import com.example.myapplicationAppsFLyerDemo.databinding.FragmentDeepLinkBinding
-import com.example.myapplicationAppsFLyerDemo.databinding.FragmentEmptyBinding
-import com.example.myapplicationAppsFLyerDemo.databinding.FragmentReloadBinding
+import com.example.myapplicationAppsFlyerDemo.R
+import com.example.myapplicationAppsFlyerDemo.databinding.FragmentDeepLinkBinding
+import com.example.myapplicationAppsFlyerDemo.databinding.FragmentEmptyBinding
+import com.example.myapplicationAppsFlyerDemo.databinding.FragmentReloadBinding
 import com.example.myapplicationAppsFlyerDemo.authShowModuleActivity
 import com.example.myapplicationAppsFlyerDemo.handler.ARG_DEEP_LINK_DATA
 import com.example.myapplicationAppsFlyerDemo.handler.DeepLinkNavigator

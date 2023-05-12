@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.myapplicationAppsFLyerDemo'
+    namespace 'com.example.myapplicationAppsFlyerDemo'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.myapplicationAppsFLyerDemo"
+        applicationId "com.example.myapplicationAppsFlyerDemo"
         minSdk 24
         targetSdk 33
         versionCode 1
